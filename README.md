@@ -34,18 +34,6 @@
 - **持久化**：JSON进度文件 + UTF-8-sig CSV
 - **其他**：随机延时、浏览器指纹伪装
 
-## 📁 项目结构
-
-|
-├── 1pachong.py              # 主爬虫程序（带模型轮转）
-├── 2技能分析.py                 # 技能词频统计
-├── 2数据清洗_if1失败.py         # 批量AI后处理脚本
-├── wantjob.csv                 # 任务配置文件（关键词+城市）
-├── job_analysis_results_.csv   # 输出结果
-├── scrape_progress.json        # 爬虫进度
-└── README.md
-
-
 ## 开始
 
 ### 设定要查找的关键词和城市
